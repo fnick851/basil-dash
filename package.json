@@ -1,5 +1,7 @@
 {
-  "name": "with-cookie-auth",
+  "name": "basil-labs-dashboard",
+  "author": "Noah",
+  "license": "MIT",
   "scripts": {
     "dev": "next",
     "build": "next build",

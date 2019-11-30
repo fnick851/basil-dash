@@ -1,6 +1,5 @@
 import React, { useState, FormEvent } from 'react'
 import fetch from 'isomorphic-unfetch'
-// @ts-ignore
 import Layout from '../components/layout'
 import { login } from '../utils/auth'
 import FetchError from '../interfaces/FetchError'

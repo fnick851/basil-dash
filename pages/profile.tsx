@@ -3,23 +3,14 @@ import Router from 'next/router'
 import fetch from 'isomorphic-unfetch'
 import nextCookie from 'next-cookies'
 import Layout from '../components/layout'
-// @ts-ignore
 import { withAuthSync } from '../utils/auth'
 import getHost from '../utils/get-host'
 import { NextPage } from 'next'
 
-const Profile: NextPage<{
-  data: {
-    name: string,
-    login: string,
-    bio: string,
-    avatarUrl: string,
-  }
-}> = (
-  {
-    data
-  }) => {
-    const { name, login, bio, avatarUrl } = data
+const Profile: NextPage = (
+    js: any
+  ) => {
+    const { name, login, bio, avatarUrl } = js.data
 
     return (
       <Layout>
