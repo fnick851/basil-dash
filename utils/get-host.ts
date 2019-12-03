@@ -1,4 +1,4 @@
-import { NextPageContext } from "next"
+import { NextPageContext } from 'next'
 
 // This is not production ready, (except with providers that ensure a secure host, like Now)
 // For production consider the usage of environment variables and NODE_ENV

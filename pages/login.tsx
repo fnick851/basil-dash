@@ -19,7 +19,7 @@ function Login() {
         method: 'POST',
 
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ username }),
+        body: JSON.stringify({ username })
       })
       if (response.status === 200) {
         const { token } = await response.json()
@@ -40,7 +40,7 @@ function Login() {
       const { response } = error
       setUserData(
         Object.assign({}, userData, {
-          error: response ? response.statusText : error.message,
+          error: response ? response.statusText : error.message
         })
       )
     }

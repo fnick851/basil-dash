@@ -1,5 +1,5 @@
 interface FetchError extends Error {
-    response?: Response
+  response?: Response
 }
 
 export default FetchError

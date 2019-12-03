@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import Router from 'next/router'
 import nextCookie from 'next-cookies'
 import cookie from 'js-cookie'
-import { NextPageContext, NextPage } from "next"
+import { NextPageContext, NextPage } from 'next'
 
 export const login = ({ token }: any) => {
   cookie.set('token', token, { expires: 1 })

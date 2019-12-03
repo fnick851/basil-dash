@@ -3,7 +3,9 @@ import Head from 'next/head'
 import Header from './header'
 import { NextPage } from 'next'
 
-const Layout: NextPage<{ children: React.ReactNode }> = (props: { children: React.ReactNode }) => (
+const Layout: NextPage<{ children: React.ReactNode }> = (props: {
+  children: React.ReactNode
+}) => (
   <React.Fragment>
     <Head>
       <title>With Cookies</title>
