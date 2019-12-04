@@ -1,0 +1,1728 @@
+[
+  {
+    "name_only": "Spinneys Al Ghurair",
+    "address_only": "Dubai - United Arab Emirates",
+    "avg_review": 4.0,
+    "num_reviews": 180,
+    "lat": 25.268112,
+    "long": 55.3180028,
+    "loc_type": "Supermarket",
+    "perception": [
+      {
+        "topic": "freshness",
+        "ratings": "5",
+        "review_date": 1562889600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "freshness",
+        "ratings": "5",
+        "review_date": 1562889600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "freshness",
+        "ratings": "4",
+        "review_date": 1562889600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "selection",
+        "ratings": "5",
+        "review_date": 1568073600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "staff",
+        "ratings": "1",
+        "review_date": 1560297600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "selection",
+        "ratings": "1",
+        "review_date": 1560297600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "price",
+        "ratings": "1",
+        "review_date": 1560297600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "freshness",
+        "ratings": "5",
+        "review_date": 1562889600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "parking",
+        "ratings": "3",
+        "review_date": 1557705600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "location",
+        "ratings": "3",
+        "review_date": 1557705600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "quality",
+        "ratings": "5",
+        "review_date": 1557705600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "location",
+        "ratings": "5",
+        "review_date": 1557705600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "staff",
+        "ratings": "1",
+        "review_date": 1557705600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "efficiency_of_service",
+        "ratings": "1",
+        "review_date": 1557705600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "staff",
+        "ratings": "1",
+        "review_date": 1557705600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "staff",
+        "ratings": "1",
+        "review_date": 1557705600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "location",
+        "ratings": "4",
+        "review_date": 1562889600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "location",
+        "ratings": "4",
+        "review_date": 1562889600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "efficiency_of_service",
+        "ratings": "4",
+        "review_date": 1557705600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "price",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "freshness",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "staff",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "selection",
+        "ratings": "4",
+        "review_date": 1539561600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "freshness",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "location",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "staff",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "freshness",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "offerings",
+        "ratings": "4",
+        "review_date": 1539561600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "quality",
+        "ratings": "4",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "staff",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "freshness",
+        "ratings": "4",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "quality",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "freshness",
+        "ratings": "4",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "location",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "location",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "freshness",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "location",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "location",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "repeat_visit",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "convenience",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "location",
+        "ratings": "1",
+        "review_date": 1539561600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "freshness",
+        "ratings": "3",
+        "review_date": 1539561600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "selection",
+        "ratings": "3",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "location",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "freshness",
+        "ratings": "3",
+        "review_date": 1508457600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "staff",
+        "ratings": "3",
+        "review_date": 1508457600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "repeat_visit",
+        "ratings": "4",
+        "review_date": 1477353600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "offerings",
+        "ratings": "1",
+        "review_date": 1477353600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "selection",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "selection",
+        "ratings": "3",
+        "review_date": 1508457600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "location",
+        "ratings": "1",
+        "review_date": 1477353600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "location",
+        "ratings": "1",
+        "review_date": 1477353600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "staff",
+        "ratings": "3",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "freshness",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "staff",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "selection",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "selection",
+        "ratings": "3",
+        "review_date": 1508457600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "cleanliness",
+        "ratings": "4",
+        "review_date": 1560297600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "atmosphere",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "price",
+        "ratings": "3",
+        "review_date": 1508457600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "price",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": -1
+      }
+    ]
+  },
+  {
+    "name_only": "Spinneys Dubai Marina",
+    "address_only": "Emaar Towers - Marina Walk - Dubai - United Arab Emirates",
+    "avg_review": 4.3,
+    "num_reviews": 927,
+    "lat": 25.0863571,
+    "long": 55.1483218,
+    "loc_type": "Supermarket",
+    "perception": [
+      {
+        "topic": "atmosphere",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "convenience",
+        "ratings": "5",
+        "review_date": 1568073600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "repeat_visit",
+        "ratings": "5",
+        "review_date": 1565481600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "staff",
+        "ratings": "5",
+        "review_date": 1565481600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "offerings",
+        "ratings": "5",
+        "review_date": 1568851200000,
+        "sentiment": 0
+      },
+      {
+        "topic": "price",
+        "ratings": "5",
+        "review_date": 1568851200000,
+        "sentiment": -1
+      },
+      {
+        "topic": "freshness",
+        "ratings": "5",
+        "review_date": 1562889600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "offerings",
+        "ratings": "5",
+        "review_date": 1560297600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "selection",
+        "ratings": "5",
+        "review_date": 1560297600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "cleanliness",
+        "ratings": "5",
+        "review_date": 1560297600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "convenience",
+        "ratings": "5",
+        "review_date": 1568073600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "freshness",
+        "ratings": "4",
+        "review_date": 1562889600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "freshness",
+        "ratings": "4",
+        "review_date": 1562889600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "offerings",
+        "ratings": "4",
+        "review_date": 1565481600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "price",
+        "ratings": "4",
+        "review_date": 1565481600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "quality",
+        "ratings": "4",
+        "review_date": 1565481600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "location",
+        "ratings": "4",
+        "review_date": 1565481600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "staff",
+        "ratings": "5",
+        "review_date": 1557705600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "repeat_visit",
+        "ratings": "5",
+        "review_date": 1557705600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "selection",
+        "ratings": "5",
+        "review_date": 1557705600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "offerings",
+        "ratings": "5",
+        "review_date": 1557705600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "convenience",
+        "ratings": "4",
+        "review_date": 1560297600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "staff",
+        "ratings": "4",
+        "review_date": 1557705600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "cleanliness",
+        "ratings": "4",
+        "review_date": 1557705600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "offerings",
+        "ratings": "5",
+        "review_date": 1552521600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "freshness",
+        "ratings": "4",
+        "review_date": 1552521600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "repeat_visit",
+        "ratings": "5",
+        "review_date": 1547337600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "location",
+        "ratings": "5",
+        "review_date": 1568073600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "selection",
+        "ratings": "3",
+        "review_date": 1560297600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "quality",
+        "ratings": "4",
+        "review_date": 1547337600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "quality",
+        "ratings": "4",
+        "review_date": 1547337600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "repeat_visit",
+        "ratings": "4",
+        "review_date": 1552521600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "crowded",
+        "ratings": "4",
+        "review_date": 1552521600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "quality",
+        "ratings": "5",
+        "review_date": 1552521600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "freshness",
+        "ratings": "5",
+        "review_date": 1552521600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "offerings",
+        "ratings": "4",
+        "review_date": 1547337600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "location",
+        "ratings": "3",
+        "review_date": 1555113600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "price",
+        "ratings": "5",
+        "review_date": 1552521600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "convenience",
+        "ratings": "5",
+        "review_date": 1552521600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "price",
+        "ratings": "3",
+        "review_date": 1565481600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "convenience",
+        "ratings": "3",
+        "review_date": 1565481600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "selection",
+        "ratings": "4",
+        "review_date": 1542153600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "parking",
+        "ratings": "1",
+        "review_date": 1570060800000,
+        "sentiment": 0
+      },
+      {
+        "topic": "staff",
+        "ratings": "5",
+        "review_date": 1552521600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "quality",
+        "ratings": "5",
+        "review_date": 1547337600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "price",
+        "ratings": "5",
+        "review_date": 1547337600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "offerings",
+        "ratings": "5",
+        "review_date": 1547337600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "price",
+        "ratings": "4",
+        "review_date": 1539561600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "freshness",
+        "ratings": "4",
+        "review_date": 1549929600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "staff",
+        "ratings": "4",
+        "review_date": 1549929600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "price",
+        "ratings": "4",
+        "review_date": 1549929600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "price",
+        "ratings": "5",
+        "review_date": 1565481600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "selection",
+        "ratings": "5",
+        "review_date": 1557705600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "offerings",
+        "ratings": "5",
+        "review_date": 1544745600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "quality",
+        "ratings": "5",
+        "review_date": 1552521600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "freshness",
+        "ratings": "4",
+        "review_date": 1549929600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "freshness",
+        "ratings": "5",
+        "review_date": 1542153600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "staff",
+        "ratings": "5",
+        "review_date": 1542153600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "repeat_visit",
+        "ratings": "1",
+        "review_date": 1549929600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "repeat_visit",
+        "ratings": "5",
+        "review_date": 1560297600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "price",
+        "ratings": "4",
+        "review_date": 1544745600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "convenience",
+        "ratings": "4",
+        "review_date": 1544745600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "selection",
+        "ratings": "4",
+        "review_date": 1542153600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "selection",
+        "ratings": "5",
+        "review_date": 1542153600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "layout",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "layout",
+        "ratings": "3",
+        "review_date": 1539561600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "layout",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "price",
+        "ratings": "3",
+        "review_date": 1539561600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "atmosphere",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "convenience",
+        "ratings": "4",
+        "review_date": 1539561600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "freshness",
+        "ratings": "4",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "price",
+        "ratings": "4",
+        "review_date": 1539561600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "selection",
+        "ratings": "4",
+        "review_date": 1555113600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "location",
+        "ratings": "4",
+        "review_date": 1542153600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "layout",
+        "ratings": "4",
+        "review_date": 1552521600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "freshness",
+        "ratings": "5",
+        "review_date": 1549929600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "staff",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "selection",
+        "ratings": "4",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "convenience",
+        "ratings": "4",
+        "review_date": 1539561600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "offerings",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "freshness",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "atmosphere",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "quality",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "price",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "freshness",
+        "ratings": "4",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "freshness",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "price",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "quality",
+        "ratings": "4",
+        "review_date": 1446249600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "parking",
+        "ratings": "4",
+        "review_date": 1446249600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "convenience",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "price",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "staff",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "selection",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "quality",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "freshness",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "convenience",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "cleanliness",
+        "ratings": "3",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "price",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "repeat_visit",
+        "ratings": "4",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "staff",
+        "ratings": "5",
+        "review_date": 1477353600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "quality",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "quality",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "freshness",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "convenience",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "repeat_visit",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "convenience",
+        "ratings": "4",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "parking",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": ""
+      },
+      {
+        "topic": "price",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "selection",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "freshness",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "selection",
+        "ratings": "1",
+        "review_date": 1539561600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "location",
+        "ratings": "1",
+        "review_date": 1539561600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "offerings",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "price",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "price",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "selection",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "selection",
+        "ratings": "4",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "repeat_visit",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "quality",
+        "ratings": "4",
+        "review_date": 1539561600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "efficiency_of_service",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "price",
+        "ratings": "3",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "selection",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "staff",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "price",
+        "ratings": "4",
+        "review_date": 1539561600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "selection",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "price",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "price",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "quality",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "price",
+        "ratings": "4",
+        "review_date": 1539561600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "price",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "quality",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "quality",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "freshness",
+        "ratings": "4",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "selection",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "selection",
+        "ratings": "3",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "staff",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "parking",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "selection",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "parking",
+        "ratings": "4",
+        "review_date": 1477353600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "price",
+        "ratings": "1",
+        "review_date": 1477353600000,
+        "sentiment": ""
+      },
+      {
+        "topic": "quality",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "offerings",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "price",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "freshness",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "freshness",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "repeat_visit",
+        "ratings": "5",
+        "review_date": 1446249600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "freshness",
+        "ratings": "5",
+        "review_date": 1446249600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "selection",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "location",
+        "ratings": "3",
+        "review_date": 1539561600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "layout",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "repeat_visit",
+        "ratings": "5",
+        "review_date": 1542153600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "freshness",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "quality",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "parking",
+        "ratings": "3",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "repeat_visit",
+        "ratings": "4",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "efficiency_of_service",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "parking",
+        "ratings": "3",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "freshness",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "staff",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "selection",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "layout",
+        "ratings": "3",
+        "review_date": 1508457600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "convenience",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "selection",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "parking",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "price",
+        "ratings": "3",
+        "review_date": 1539561600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "parking",
+        "ratings": "3",
+        "review_date": 1508457600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "parking",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "layout",
+        "ratings": "3",
+        "review_date": 1508457600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "selection",
+        "ratings": "3",
+        "review_date": 1508457600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "repeat_visit",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "quality",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "selection",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "repeat_visit",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "price",
+        "ratings": "1",
+        "review_date": 1508457600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "selection",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "price",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "price",
+        "ratings": "3",
+        "review_date": 1508457600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "selection",
+        "ratings": "3",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "location",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "quality",
+        "ratings": "4",
+        "review_date": 1539561600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "offerings",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "convenience",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "layout",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "price",
+        "ratings": "1",
+        "review_date": 1508457600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "price",
+        "ratings": "3",
+        "review_date": 1477353600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "layout",
+        "ratings": "4",
+        "review_date": 1565481600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "price",
+        "ratings": "5",
+        "review_date": 1562889600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "quality",
+        "ratings": "5",
+        "review_date": 1557705600000,
+        "sentiment": ""
+      },
+      {
+        "topic": "selection",
+        "ratings": "5",
+        "review_date": 1565481600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "price",
+        "ratings": "4",
+        "review_date": 1547337600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "convenience",
+        "ratings": "4",
+        "review_date": 1547337600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "repeat_visit",
+        "ratings": "5",
+        "review_date": 1565481600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "repeat_visit",
+        "ratings": "4",
+        "review_date": 1547337600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "cleanliness",
+        "ratings": "3",
+        "review_date": 1560297600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "parking",
+        "ratings": "3",
+        "review_date": 1539561600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "selection",
+        "ratings": "4",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "quality",
+        "ratings": "4",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "selection",
+        "ratings": "3",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "price",
+        "ratings": "3",
+        "review_date": 1539561600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "staff",
+        "ratings": "3",
+        "review_date": 1539561600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "selection",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "price",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "staff",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "cleanliness",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "price",
+        "ratings": "3",
+        "review_date": 1508457600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "offerings",
+        "ratings": "3",
+        "review_date": 1508457600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "convenience",
+        "ratings": "4",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "location",
+        "ratings": "5",
+        "review_date": 1542153600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "layout",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "quality",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "staff",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "price",
+        "ratings": "3",
+        "review_date": 1508457600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "price",
+        "ratings": "3",
+        "review_date": 1508457600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "price",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "layout",
+        "ratings": "5",
+        "review_date": 1539561600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "layout",
+        "ratings": "3",
+        "review_date": 1477353600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "layout",
+        "ratings": "3",
+        "review_date": 1477353600000,
+        "sentiment": ""
+      },
+      {
+        "topic": "selection",
+        "ratings": "3",
+        "review_date": 1477353600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "offerings",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 0
+      },
+      {
+        "topic": "quality",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "price",
+        "ratings": "1",
+        "review_date": 1508457600000,
+        "sentiment": -1
+      },
+      {
+        "topic": "repeat_visit",
+        "ratings": "5",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      },
+      {
+        "topic": "offerings",
+        "ratings": "4",
+        "review_date": 1508457600000,
+        "sentiment": 1
+      }
+    ]
+  }
+]

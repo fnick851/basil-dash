@@ -1,11 +1,12 @@
 import React from 'react'
 import Layout from '../components/layout'
+import Link from 'next/link'
 
 const Home = () => (
   <Layout>
-    <h1>Cookie-based authentication example</h1>
+    <h1>Cookie-based authentication</h1>
 
-    <p>Steps to test the functionality:</p>
+    <h2>Notes:</h2>
 
     <ol>
       <li>Click login and enter your GitHub username.</li>
@@ -16,6 +17,9 @@ const Home = () => (
       <li>
         Click logout and try to go to profile again. You'll get redirected to
         the `/login` route.
+      </li>
+      <li>
+        API endpoint serving Spinneys data: <Link href='/api/spinneys'><a>/api/spinneys</a></Link>
       </li>
     </ol>
     <style jsx>{`

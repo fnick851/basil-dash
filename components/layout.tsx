@@ -8,7 +8,8 @@ const Layout: NextPage<{ children: React.ReactNode }> = (props: {
 }) => (
   <React.Fragment>
     <Head>
-      <title>With Cookies</title>
+      <title>BasilLabs Dashboard</title>
+      <link rel="shortcut icon" href="/favicon.png"></link>
     </Head>
     <style jsx global>{`
       *,
