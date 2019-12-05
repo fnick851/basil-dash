@@ -19,7 +19,10 @@ const Home = () => (
         the `/login` route.
       </li>
       <li>
-        API endpoint serving Spinneys data: <Link href='/api/spinneys'><a>/api/spinneys</a></Link>
+        API endpoint serving Spinneys data:{' '}
+        <Link href="/api/spinneys">
+          <a>/api/spinneys</a>
+        </Link>
       </li>
     </ol>
     <style jsx>{`
