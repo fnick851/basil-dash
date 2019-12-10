@@ -1,10 +1,14 @@
 import React, { useState, FormEvent } from 'react'
 import fetch from 'isomorphic-unfetch'
+import { NextPage } from 'next'
+import nextCookie from 'next-cookies'
+import Router from 'next/router'
+
 import Layout from '../components/layout'
 import { login } from '../utils/auth'
 import FetchError from '../interfaces/FetchError'
 
-const Login = () => {
+const Login: NextPage = () => {
   const [userData, setUserData] = useState({ username: '', error: '' })
 
   const handleSubmit = async (event: FormEvent) => {
@@ -25,7 +29,7 @@ const Login = () => {
         const { token } = await response.json()
         login({ token })
       } else {
-        console.log('Login failed.')
+        console.error('Login failed.')
         // https://github.com/developit/unfetch#caveats
         let error: FetchError = new Error(response.statusText)
         error.response = response
@@ -51,7 +55,6 @@ const Login = () => {
       <div className="login">
         <form onSubmit={handleSubmit}>
           <label htmlFor="username">GitHub username</label>
-
           <input
             type="text"
             id="username"
@@ -63,12 +66,11 @@ const Login = () => {
               )
             }
           />
-
           <button type="submit">Login</button>
-
           {userData.error && <p className="error">Error: {userData.error}</p>}
         </form>
       </div>
+
       <style jsx>{`
         .login {
           max-width: 340px;
@@ -101,6 +103,14 @@ const Login = () => {
       `}</style>
     </Layout>
   )
+}
+
+Login.getInitialProps = async ctx => {
+  const { token } = nextCookie(ctx)
+  token ? Router.push('/profile') : null
+  return {
+    token
+  }
 }
 
 export default Login

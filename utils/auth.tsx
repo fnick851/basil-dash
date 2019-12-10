@@ -36,7 +36,7 @@ export const withAuthSync = (WrappedComponent: NextPage) => {
   const Wrapper = (props: any) => {
     const syncLogout = (event: StorageEvent) => {
       if (event.key === 'logout') {
-        console.log('logged out from storage!')
+        console.warn('Logged out from storage!')
         Router.push('/login')
       }
     }

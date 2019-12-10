@@ -7,42 +7,15 @@ import { withAuthSync } from '../utils/auth'
 import getHost from '../utils/get-host'
 import { NextPage } from 'next'
 
-const Profile: NextPage = (js: any) => {
-  const { name, login, bio, avatarUrl } = js.data
-
+const Dashboard: NextPage = (js: any) => {
   return (
     <Layout>
-      <img src={avatarUrl} alt="Avatar" />
-      <h1>{name}</h1>
-      <p className="lead">{login}</p>
-      <p>{bio}</p>
-
-      <style jsx>{`
-        img {
-          max-width: 200px;
-          border-radius: 0.5rem;
-        }
-
-        h1 {
-          margin-bottom: 0;
-        }
-
-        .lead {
-          margin-top: 0;
-          font-size: 1.5rem;
-          font-weight: 300;
-          color: #666;
-        }
-
-        p {
-          color: #6a737d;
-        }
-      `}</style>
+      <h1>Logged in to see dashboard.</h1>
     </Layout>
   )
 }
 
-Profile.getInitialProps = async ctx => {
+Dashboard.getInitialProps = async ctx => {
   const { token } = nextCookie(ctx)
   const apiUrl = getHost(ctx) + '/api/profile'
 
@@ -74,4 +47,4 @@ Profile.getInitialProps = async ctx => {
   }
 }
 
-export default withAuthSync(Profile)
+export default withAuthSync(Dashboard)

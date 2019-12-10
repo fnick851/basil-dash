@@ -16,12 +16,17 @@ const Header = () => (
           </Link>
         </li>
         <li>
+          <Link href="/dashboard">
+            <a>Dashboard</a>
+          </Link>
+        </li>
+        <li>
           <Link href="/profile">
             <a>Profile</a>
           </Link>
         </li>
         <li>
-          <button onClick={logout}>Logout</button>
+          <a onClick={logout}>Logout</a>
         </li>
       </ul>
     </nav>
@@ -45,6 +50,10 @@ const Header = () => (
       a {
         color: #fff;
         text-decoration: none;
+      }
+
+      a:hover {
+        cursor: pointer;
       }
 
       header {
