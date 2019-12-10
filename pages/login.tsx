@@ -4,10 +4,10 @@ import Layout from '../components/layout'
 import { login } from '../utils/auth'
 import FetchError from '../interfaces/FetchError'
 
-function Login() {
+const Login = () => {
   const [userData, setUserData] = useState({ username: '', error: '' })
 
-  async function handleSubmit(event: FormEvent) {
+  const handleSubmit = async (event: FormEvent) => {
     event.preventDefault()
     setUserData(Object.assign({}, userData, { error: '' }))
 

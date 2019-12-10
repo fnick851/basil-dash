@@ -25,6 +25,7 @@ const Header = () => (
         </li>
       </ul>
     </nav>
+
     <style jsx>{`
       ul {
         display: flex;

@@ -5,9 +5,7 @@ import Link from 'next/link'
 const Home = () => (
   <Layout>
     <h1>Cookie-based authentication</h1>
-
     <h2>Notes:</h2>
-
     <ol>
       <li>Click login and enter your GitHub username.</li>
       <li>
@@ -25,6 +23,7 @@ const Home = () => (
         </Link>
       </li>
     </ol>
+
     <style jsx>{`
       li {
         margin-bottom: 0.5rem;

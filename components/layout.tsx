@@ -11,6 +11,11 @@ const Layout: NextPage<{ children: React.ReactNode }> = (props: {
       <title>BasilLabs Dashboard</title>
       <link rel="shortcut icon" href="/favicon.png"></link>
     </Head>
+    <Header />
+    <main>
+      <div className="container">{props.children}</div>
+    </main>
+
     <style jsx global>{`
       *,
       *::before,
@@ -33,11 +38,6 @@ const Layout: NextPage<{ children: React.ReactNode }> = (props: {
         padding-right: 1rem;
       }
     `}</style>
-    <Header />
-
-    <main>
-      <div className="container">{props.children}</div>
-    </main>
   </React.Fragment>
 )
 
