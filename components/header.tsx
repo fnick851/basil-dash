@@ -17,7 +17,7 @@ const Header = (props: { isLoggedIn: boolean }) => {
             <li className="mx-4">
               <a
                 onClick={logout}
-                className="hover:bg-gray-200 hover:border-gray-200 border-solid border border-white rounded bg-white shadow p-2"
+                className="cursor-pointer hover:bg-gray-200 hover:border-gray-200 border-solid border border-white rounded bg-white shadow p-2"
               >
                 Logout
               </a>
