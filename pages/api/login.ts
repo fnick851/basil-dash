@@ -3,25 +3,40 @@ import { NextApiRequest, NextApiResponse } from 'next'
 import FetchError from '../../interfaces/FetchError'
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
-  const { username } = await req.body
-  const url = `https://api.github.com/users/${username}`
+  const { username, password } = await req.body
+  console.log(username, password)
+
+  const listOfUsers = [
+    {
+      username: 'theo',
+      password: 'topsecret'
+    },
+    {
+      username: 'noah',
+      password: 'hugesecret'
+    }
+  ]
 
   try {
-    const response = await fetch(url)
-
-    if (response.ok) {
-      const { id } = await response.json()
-      return res.status(200).json({ token: id })
-    } else {
-      // https://github.com/developit/unfetch#caveats
-      const error: FetchError = new Error(response.statusText)
-      error.response = response
-      throw error
+    for (let i = 0; i < listOfUsers.length; i++) {
+      if (
+        listOfUsers[i].username === username &&
+        listOfUsers[i].password === password
+      ) {
+        return res.status(200).json({
+          token: `super_secret_${Math.floor(
+            Math.random() * Math.floor(1000000)
+          )}`
+        })
+      }
     }
+    return res.status(401).json({
+      message: 'unauthorized'
+    })
   } catch (error) {
     const { response } = error
     return response
       ? res.status(response.status).json({ message: response.statusText })
-      : res.status(400).json({ message: error.message })
+      : res.status(401).json({ message: error.message })
   }
 }

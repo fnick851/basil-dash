@@ -6,7 +6,7 @@ import { NextPageContext, NextPage } from 'next'
 
 export const login = ({ token }: any) => {
   cookie.set('token', token, { expires: 1 })
-  Router.push('/profile')
+  Router.push('/')
 }
 
 export const auth = (ctx: NextPageContext) => {

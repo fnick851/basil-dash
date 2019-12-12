@@ -1,35 +1,23 @@
 import React from 'react'
+import nextCookie from 'next-cookies'
 import Layout from '../components/layout'
-import Link from 'next/link'
+import { withAuthSync } from '../utils/auth'
+import { NextPage } from 'next'
 
-const Home = () => (
-  <Layout>
-    <h1>Cookie-based authentication</h1>
-    <h2>Notes:</h2>
-    <ol>
-      <li>Click login and enter your GitHub username.</li>
-      <li>
-        Click home and click profile again, notice how your session is being
-        used through a token stored in a cookie.
-      </li>
-      <li>
-        Click logout and try to go to profile again. You'll get redirected to
-        the `/login` route.
-      </li>
-      <li>
-        API endpoint serving Spinneys data:{' '}
-        <Link href="/api/spinneys">
-          <a>/api/spinneys</a>
-        </Link>
-      </li>
-    </ol>
+const Dashboard: NextPage<any> = props => {
+  return (
+    <Layout isLoggedIn={props.isLoggedIn}>
+      <h1>Login protected dashboard.</h1>
+    </Layout>
+  )
+}
 
-    <style jsx>{`
-      li {
-        margin-bottom: 0.5rem;
-      }
-    `}</style>
-  </Layout>
-)
+Dashboard.getInitialProps = async ctx => {
+  const { token } = nextCookie(ctx)
 
-export default Home
+  let isLoggedIn = false
+  token ? (isLoggedIn = true) : null
+  return { isLoggedIn }
+}
+
+export default withAuthSync(Dashboard)

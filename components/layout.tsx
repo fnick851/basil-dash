@@ -3,41 +3,21 @@ import Head from 'next/head'
 import Header from './header'
 import { NextPage } from 'next'
 
-const Layout: NextPage<{ children: React.ReactNode }> = (props: {
+import '../styles/main.css'
+
+const Layout: NextPage<{
   children: React.ReactNode
-}) => (
+  isLoggedIn: boolean
+}> = props => (
   <React.Fragment>
     <Head>
       <title>BasilLabs Dashboard</title>
       <link rel="shortcut icon" href="/favicon.png"></link>
     </Head>
-    <Header />
+    <Header isLoggedIn={props.isLoggedIn} />
     <main>
-      <div className="container">{props.children}</div>
+      <div>{props.children}</div>
     </main>
-
-    <style jsx global>{`
-      *,
-      *::before,
-      *::after {
-        box-sizing: border-box;
-      }
-
-      body {
-        margin: 0;
-        color: #333;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-          'Helvetica Neue', Arial, Noto Sans, sans-serif, 'Apple Color Emoji',
-          'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-      }
-
-      .container {
-        max-width: 65rem;
-        margin: 1.5rem auto;
-        padding-left: 1rem;
-        padding-right: 1rem;
-      }
-    `}</style>
   </React.Fragment>
 )
 

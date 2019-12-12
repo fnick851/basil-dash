@@ -1,68 +1,40 @@
 import Link from 'next/link'
 import { logout } from '../utils/auth'
 
-const Header = () => (
-  <header>
-    <nav>
-      <ul>
-        <li>
-          <Link href="/">
-            <a>Home</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/login">
-            <a>Login</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/dashboard">
-            <a>Dashboard</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/profile">
-            <a>Profile</a>
-          </Link>
-        </li>
-        <li>
-          <a onClick={logout}>Logout</a>
-        </li>
-      </ul>
-    </nav>
-
-    <style jsx>{`
-      ul {
-        display: flex;
-        list-style: none;
-        margin-left: 0;
-        padding-left: 0;
-      }
-
-      li {
-        margin-right: 1rem;
-      }
-
-      li:first-child {
-        margin-left: auto;
-      }
-
-      a {
-        color: #fff;
-        text-decoration: none;
-      }
-
-      a:hover {
-        cursor: pointer;
-      }
-
-      header {
-        padding: 0.2rem;
-        color: #fff;
-        background-color: #333;
-      }
-    `}</style>
-  </header>
-)
+const Header = (props: { isLoggedIn: boolean }) => {
+  return (
+    <header>
+      <nav>
+        <ul className="flex list-none bg-green-300 py-4">
+          <li className="ml-auto">
+            <Link href="/">
+              <a className="hover:bg-gray-200 hover:border-gray-200 border-solid border border-white rounded bg-white shadow p-2">
+                Dashboard
+              </a>
+            </Link>
+          </li>
+          {props.isLoggedIn ? (
+            <li className="mx-4">
+              <a
+                onClick={logout}
+                className="hover:bg-gray-200 hover:border-gray-200 border-solid border border-white rounded bg-white shadow p-2"
+              >
+                Logout
+              </a>
+            </li>
+          ) : (
+            <li className="mx-4">
+              <Link href="/login">
+                <a className="hover:bg-gray-200 hover:border-gray-200 border-solid border border-white rounded bg-white shadow p-2">
+                  Login
+                </a>
+              </Link>
+            </li>
+          )}
+        </ul>
+      </nav>
+    </header>
+  )
+}
 
 export default Header
