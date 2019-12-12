@@ -4,7 +4,6 @@ import FetchError from '../../interfaces/FetchError'
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
   const { username, password } = await req.body
-  console.log(username, password)
 
   const listOfUsers = [
     {

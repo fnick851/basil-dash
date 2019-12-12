@@ -105,7 +105,9 @@ const Login: NextPage<{ isLoggedIn: boolean }> = props => {
           >
             Login
           </button>
-          {userData.error && <p className="error">Error: {userData.error}</p>}
+          {userData.error && (
+            <p className="mt-5 text-red-400">Error: {userData.error}</p>
+          )}
         </form>
       </div>
     </Layout>
