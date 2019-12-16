@@ -7,12 +7,8 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
   const listOfUsers = [
     {
-      username: 'theo',
-      password: 'topsecret'
-    },
-    {
-      username: 'noah',
-      password: 'hugesecret'
+      username: 'basil_demo',
+      password: 'supermarket'
     }
   ]
 
