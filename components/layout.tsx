@@ -11,7 +11,7 @@ const Layout: NextPage<{
 }> = props => (
   <React.Fragment>
     <Head>
-      <title>BasilLabs Dashboard</title>
+      <title>BasilLabs Demo Dashboard</title>
       <link rel="shortcut icon" href="/favicon.png"></link>
     </Head>
     <Header isLoggedIn={props.isLoggedIn} />

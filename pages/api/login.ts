@@ -7,21 +7,16 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
   const listOfUsers = [
     {
-      username: 'basil_demo',
-      password: 'supermarket'
+      username: 'demo',
+      password: 'password'
     }
   ]
 
   try {
     for (let i = 0; i < listOfUsers.length; i++) {
-      if (
-        listOfUsers[i].username === username &&
-        listOfUsers[i].password === password
-      ) {
+      if (listOfUsers[i].username === username && listOfUsers[i].password === password) {
         return res.status(200).json({
-          token: `super_secret_${Math.floor(
-            Math.random() * Math.floor(1000000)
-          )}`
+          token: `super_secret_${Math.floor(Math.random() * Math.floor(1000000))}`
         })
       }
     }

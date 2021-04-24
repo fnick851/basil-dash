@@ -41,10 +41,7 @@ const Login: NextPage<{ isLoggedIn: boolean }> = props => {
         throw error
       }
     } catch (error) {
-      console.error(
-        'You have an error in your code or there are Network issues.',
-        error
-      )
+      console.error('You have an error in your code or there are Network issues.', error)
 
       const { response } = error
       setUserData(
@@ -58,14 +55,9 @@ const Login: NextPage<{ isLoggedIn: boolean }> = props => {
   return (
     <Layout isLoggedIn={props.isLoggedIn}>
       <div className="w-full max-w-xs mx-auto mt-32">
-        <form
-          className="bg-gray-100 shadow-md rounded px-8 pt-6 pb-8 mb-4"
-          onSubmit={handleSubmit}
-        >
+        <form className="bg-gray-100 shadow-md rounded px-8 pt-6 pb-8 mb-4" onSubmit={handleSubmit}>
           <div className="mb-4">
-            <label className="block text-gray-700 text-sm font-bold mb-2">
-              Username
-            </label>
+            <label className="block text-gray-700 text-sm font-bold mb-2">Username</label>
             <input
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               type="text"
@@ -73,17 +65,11 @@ const Login: NextPage<{ isLoggedIn: boolean }> = props => {
               name="username"
               value={userData.username}
               placeholder="username"
-              onChange={event =>
-                setUserData(
-                  Object.assign({}, userData, { username: event.target.value })
-                )
-              }
+              onChange={event => setUserData(Object.assign({}, userData, { username: event.target.value }))}
             />
           </div>
           <div className="mb-6">
-            <label className="block text-gray-700 text-sm font-bold mb-2">
-              Password
-            </label>
+            <label className="block text-gray-700 text-sm font-bold mb-2">Password</label>
             <input
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
               type="text"
@@ -91,11 +77,7 @@ const Login: NextPage<{ isLoggedIn: boolean }> = props => {
               name="password"
               placeholder="password"
               value={userData.password}
-              onChange={event =>
-                setUserData(
-                  Object.assign({}, userData, { password: event.target.value })
-                )
-              }
+              onChange={event => setUserData(Object.assign({}, userData, { password: event.target.value }))}
             />
           </div>
 
@@ -105,10 +87,11 @@ const Login: NextPage<{ isLoggedIn: boolean }> = props => {
           >
             Login
           </button>
-          {userData.error && (
-            <p className="mt-5 text-red-400">Error: {userData.error}</p>
-          )}
+          {userData.error && <p className="mt-5 text-red-400">Error: {userData.error}</p>}
         </form>
+        Log in with - <br />
+        username: demo <br />
+        password: password
       </div>
     </Layout>
   )
